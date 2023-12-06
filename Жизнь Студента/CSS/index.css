@@ -1,0 +1,110 @@
+﻿body
+{
+    background-color: rgb(69, 69, 69);
+}
+
+h1 {
+    align-items: center;
+    font-family: Arial;
+    text-align: center;
+    color: crimson;
+    font-weight: 600;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 30%;
+}
+
+#description {
+    align-items: center;
+    font-family: Arial;
+    text-align: center;
+    color: crimson;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.imgContainer {
+    height: 400px;
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+}
+
+.descriptionContainer {
+    height: auto;
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+}
+
+.actionButton {
+    width: auto;
+    height: 50px;
+    background-color: rgb(118, 1, 1);
+    border-color: rgb(210, 8, 8);
+    border-style: inset;
+    border-width: 7px;
+    flex-grow: 1;
+    text-align: center;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#actions {
+    height: 50px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+
+
+.progress {
+    margin: auto;
+    width: 600px;
+    height: 40px;
+    overflow: hidden;
+    background: #ff3232;
+    background: linear-gradient(to right, hsl(0, 100%, 80%) 0%, #ff0000 100%);
+    border-radius: 100px;
+  }
+   
+  .grayback {
+    position: relative;
+    left: 100%; /* Текущее состояние */
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+  }
+
+  .moneyContainer {
+    position: absolute;
+    height: 70px;
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+  .money {
+    position: relative;
+    size: 5%;
+  }
+
+  #moneyCounter {
+    align-items: center;
+    font-family: Arial;
+    text-align: center;
+    color: gold;
+    font-weight: 600;
+  }
